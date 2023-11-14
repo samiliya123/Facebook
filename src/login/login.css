@@ -1,0 +1,54 @@
+.login{
+    /* display: grid;
+    place-items: center;
+    height: 70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    height: 100%; */
+
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    
+}
+
+.login > img{
+    height: 250px;
+    width: 200px;
+
+}
+
+ 
+
+.login > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.login > button{
+    background-color: #2e81f4;
+    width: 300px;
+    font-weight: 800;
+    color: #eff2f5;
+}
+
+.login > button:hover{
+    background-color: white;
+    color: #2e81f4;
+}
+
+/* @media screen and (min-width: 414px) {
+    .login{
+       height: 60vh;
+       width: 100%;
+        
+      
+     
+    }
+  } */

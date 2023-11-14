@@ -1,0 +1,112 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 15px 20px;
+    font-family: Helvetica Neue;
+}
+
+.header__right-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__left img{
+    height: 40px;
+    width: 40px;
+    
+}
+
+.header__left-input{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 15px;
+    background-color: rgb(240,242,245);
+    border-radius: 999px;
+    
+}
+
+.header__left-input > input{
+     border: none;
+     outline-width: 0;
+     background-color: transparent;
+     
+}
+
+.header__middle{
+    display: flex;
+    justify-content: center;
+    flex: 1 ;
+}
+
+.header__middle-option .MuiSvgIcon-root{
+    color: gray;
+}
+
+/* .header__middle-option:hover .MuiSvgIcon-root{
+    color: rgb(60,90,154);
+} */
+
+.header__middle-option{
+    display: flex;
+    padding: 0 35px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__middle-option:hover{
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    border-radius: 5px;
+    border-bottom: none;
+    background-color: rgb(240,242,245);
+}
+
+
+.header__right{
+    display: flex;
+}
+
+.header__right-info{
+    display: flex;
+    align-items: center;
+}
+
+.header__right-info h4{
+    margin-left: 10px;
+}
+
+ 
+
+.header__middle-active {
+    color:  rgb(8,102,255);
+    border-bottom: solid 3px rgb(8,102,255);
+}
+
+.header__middle-active > .MuiSvgIcon-root{
+    color: rgb(8,102,255);
+}
+
+.header__middle-active:hover{
+    border-bottom: solid 3px rgb(8,102,255);
+}
+
+ 
+
+ 
+ 
+
+
